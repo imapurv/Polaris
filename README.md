@@ -2,11 +2,11 @@
 A promotional android application for college fest.
 
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-10-22-31-47 (Copy).png)
-![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-15-20-30-26 (Copy).png)
+![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-28-28 (Copy).png)
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-27-36 (Copy).png)
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-27-55 (Copy).png)
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-28-21 (Copy).png)
-![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-28-28 (Copy).png)
+![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-15-20-30-26 (Copy).png)
 
 
 This is created to showcase the Material design aspect of Android. 
