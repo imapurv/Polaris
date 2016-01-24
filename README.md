@@ -1,5 +1,5 @@
 # Polaris
-A promotional android application for college fest.
+####A promotional android application for college fest.
 
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-10-22-31-47 (Copy).png)
 ![alt tag](http://cgossip.in/apurv/res/Screenshot_2016-01-24-15-28-28 (Copy).png)
@@ -14,3 +14,5 @@ Polaris application has a very easy design that covers the whole motive behind m
 It can pass data on to the server for 'Registration'
 
 You can download the application at : https://play.google.com/store/apps/details?id=apurv.com.polaris
+
+####Contact if any issue : apurv@cgossip.in
