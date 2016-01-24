@@ -1,2 +1,9 @@
 # Polaris
-A promotional android application
+A promotional android application for college fest.
+
+
+This is created to showcase the Material design aspect of Android. 
+Polaris application has a very easy design that covers the whole motive behind material libraries update.
+It can pass data on to the server for 'Registration'
+
+You can download the application at : https://play.google.com/store/apps/details?id=apurv.com.polaris
