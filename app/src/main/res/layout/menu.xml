@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+  android:background="@color/white"
+    android:layout_height="match_parent">
+
+   <ScrollView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="top|right"
+            android:layout_below="@+id/pass"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/orr"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="SIGN IN AS ADMIN"/>
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:id="@+id/label1"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="events"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Code Relay"
+            android:id="@+id/button1"
+            android:background="@drawable/button_sel"
+            android:textColor="@drawable/textcolor"
+
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Crack-Jack"
+            android:id="@+id/button2"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Pro-Jet"
+            android:id="@+id/button3"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Hotheads"
+            android:id="@+id/button4"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Lord of Stage"
+            android:id="@+id/button5"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:id="@+id/label"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="workshop"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="Cloud on Linux"
+            android:id="@+id/button6"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:text="SalesForce Tech."
+            android:id="@+id/button7"
+            android:textColor="@drawable/textcolor"
+            android:background="@drawable/button_sel"
+            android:layout_height="60dp" />
+        <View
+            android:layout_width="match_parent"
+            android:background="@null"
+            android:layout_height="4dp"/>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:text="Annual technical festival of COMPUTER SCIECNCE AND ENGINEERING | RCOEM"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+         </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:id="@+id/spon"
+                android:textColor="@color/white"
+                android:text="OUR SPONSORS"/>
+        </LinearLayout>
+    </LinearLayout>
+
+   </ScrollView>
+
+
+
+
+
+</LinearLayout>

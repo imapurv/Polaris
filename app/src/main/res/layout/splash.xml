@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/splashscreen"
+    android:layout_height="match_parent">
+    <!--
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/colorPrimaryDark2"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorPrimaryDark1"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:layout_height="240dp">
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/logo"
+                    android:layout_height="140dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="POLARIS 2K16"
+
+
+                     android:layout_below="@+id/logo"
+                    android:textStyle="bold"
+                    android:textSize="33sp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+
+
+        </FrameLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="POLARIS 2K16"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="5dp"
+
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="CSE | RCOEM "
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content" />
+
+     -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom|center"
+                android:text="Shri Ramdeobaba College of Engineering and Management"
+                android:layout_below="@+id/col"
+
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/col"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+
+
+
+
+</FrameLayout>

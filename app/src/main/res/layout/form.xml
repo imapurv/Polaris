@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   <LinearLayout
+       android:background="@color/white"
+       android:layout_width="match_parent"
+
+       android:orientation="vertical"
+
+       android:layout_height="match_parent">
+       <TextView
+           android:layout_width="match_parent"
+           android:text="FORM"
+           android:background="@color/white"
+           android:textColor="@color/colorPrimaryDark"
+           android:gravity="center"
+           android:layout_height="60dp" />
+       <View
+           android:layout_width="match_parent"
+           android:background="@color/colorPrimaryDark"
+           android:layout_height="1dp"/>
+       <EditText
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_width="match_parent"
+           android:hint="Enter name *"
+           android:id="@+id/name"
+           android:gravity="center"
+           android:layout_height="50dp" />
+       <EditText
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_width="match_parent"
+           android:hint="College *"
+           android:id="@+id/college"
+           android:gravity="center"
+           android:layout_height="50dp" />
+
+       <EditText
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_width="match_parent"
+           android:hint="Phone *"
+           android:id="@+id/phone"
+
+           android:gravity="center"
+           android:inputType="number"
+           android:layout_height="50dp" />
+       <EditText
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_width="match_parent"
+           android:hint="Email *"
+           android:id="@+id/email"
+           android:gravity="center"
+           android:inputType="textEmailAddress"
+           android:layout_height="50dp" />
+       <EditText
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_width="match_parent"
+           android:hint="Note"
+           android:id="@+id/note"
+           android:gravity="center"
+
+           android:layout_height="50dp" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:orientation="vertical"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+
+          android:layout_height="wrap_content">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:orientation="horizontal"
+              android:weightSum="1"
+              android:layout_height="wrap_content">
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_weight=".5"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="SELECT EVENTS"
+                      android:background="@color/white"
+                      android:textColor="@color/colorPrimaryDark"
+                      android:gravity="left|center_vertical"
+                      android:textStyle="bold"
+                      android:layout_height="40dp" />
+                  <CheckBox
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Code Relay"
+                      android:id="@+id/checkBox" />
+
+                  <CheckBox
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Crack-Jack"
+                      android:id="@+id/checkBox2" />
+                  <CheckBox
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="ProJet"
+                      android:id="@+id/checkBox3" />
+                  <CheckBox
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Hotheads"
+                      android:id="@+id/checkBox4" />
+                  <CheckBox
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Lords of Stages"
+                      android:id="@+id/checkBox5" />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_weight=".5"
+                  android:layout_height="match_parent">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:text="TOTAL  ₹0"
+                      android:layout_gravity="center_horizontal"
+                      android:background="@color/white"
+                      android:id="@+id/sum"
+                      android:textColor="@color/colorPrimaryDark"
+                      android:gravity="center"
+                      android:textSize="32dp"
+                      android:textStyle="bold"
+                      android:layout_height="match_parent" />
+              </LinearLayout>
+
+          </LinearLayout>
+
+      </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_marginLeft="30dp"
+           android:layout_marginRight="30dp"
+           android:layout_marginBottom="70dp"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:text="SELECT WORKSHOP"
+               android:background="@color/white"
+               android:textColor="@color/colorPrimaryDark"
+               android:gravity="left|center_vertical"
+               android:textStyle="bold"
+               android:layout_height="40dp" />
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Cloud on Linux"
+               android:id="@+id/checkBox6" />
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="SalesForce Tech."
+               android:id="@+id/checkBox7" />
+
+
+
+       </LinearLayout>
+
+
+
+   </LinearLayout>
+   </ScrollView>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBMIT"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/button"
+    android:textColor="@color/white"
+    android:layout_gravity="center_horizontal|bottom"
+    />
+</FrameLayout>
